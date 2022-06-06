@@ -26,13 +26,6 @@ import matplotlib.pyplot as plt # Import matplotlib functionality
 import sys # Enables the passing of arguments
 from common import Sketcher
  
-# Project: Image Masking Using OpenCV
-# Author: Addison Sears-Collins
-# Date created: 9/18/2019
-# Python version: 3.7
-# Description: This program allows users to highlight a specific 
-# object within an image by masking it.
- 
 # Define the file name of the image
 INPUT_IMAGE = "fruits.jpg"
 IMAGE_NAME = INPUT_IMAGE[:INPUT_IMAGE.index(".")]
